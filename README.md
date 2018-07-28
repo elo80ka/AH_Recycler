@@ -15,6 +15,5 @@ Also, turn these activists into advocates - help them educate and motivate other
 1. https://www.waste360.com/blog/recycling-s-challenge-plastic-bags
 2. https://www.reusethisbag.com/articles/plastic-shopping-bags-environmental-impact/ (some ideas for advocacy)
 3. https://toughnickel.com/frugal-living/Ten-Ways-to-Reuse-Your-Plastic-Bags
-4. https://toughnickel.com/frugal-living/Ten-Ways-to-Reuse-Your-Plastic-Bags
 
 [1]: http://static1.squarespace.com/static/59bd5150e45a7caf6bee56f8/59bd52cc7e2a5fb4e246e309/59bd52ab7e2a5fb4e246dc48/1505579691425/industry_Eureka-Recycling-newsletter-re-plastic-recycling.pdf?format=original
