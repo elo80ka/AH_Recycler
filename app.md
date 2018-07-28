@@ -8,7 +8,7 @@ The application will consist of:
    
    c. Register a user (minimal information required - just a phone number, really)
    
-   d. Assign points to a user
+   d. Assign points to a user during drop-off
    
    e. Return a user's current points
    
