@@ -4,6 +4,8 @@ from api import views
 
 
 urlpatterns = [
-    path('ussd/', views.ussd),
+    path('centers/', views.centers),
+    path('dropoff/', views.dropoff),
+    path('users/', views.users),
     path('locations/', views.get_locations),
 ]
