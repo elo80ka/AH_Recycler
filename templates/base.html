@@ -1,0 +1,438 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Website Title -->
+    <title>Plastic Fish | Home</title>
+    <!-- Bootstrap -->
+    <link href="{% static 'assets/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+	<!-- Font-Awesome -->
+    <link href="{% static 'assets/font-awesome/css/font-awesome.min.css' %}" rel="stylesheet">
+	<!-- Lightbox -->
+	<link href="{% static 'assets/lightbox/css/lightbox.css' %}" rel="stylesheet">
+    <!-- Text Rotator-->
+	<link href="{% static 'assets/textrotator/simpletextrotator.css' %}" rel="stylesheet">
+	<!-- FlexSlider -->
+    <link href="{% static 'assets/flexslider/flexslider.css' %}" rel="stylesheet">
+	<!-- Theme Style -->
+    <link href="{% static 'css/style.css' %}" rel="stylesheet">
+	<!-- Animations -->
+    <link href="{% static 'css/animate.css' %}" rel="stylesheet">
+	<!-- Custom Favicon -->
+	<link href="{% static 'img/favicon.ico' %}" rel="shortcut icon" type="image/x-icon" /> 
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="assets/html5shiv/html5shiv.js"></script>
+    <script src="assets/respond/respond.min.js"></script>
+    <![endif]-->
+  </head>
+    <body id="top">
+
+      <!-- ****************************** Preloader ************************** -->
+      <div id="preloader"></div>
+
+
+	  	<!-- ==========================
+        HEADER SECTION 
+        =========================== -->
+        <header id="home">
+		    <!-- creative menu -->
+            <div class="container-fluid">
+              <div class="row">
+                <div class="menu-wrap">
+				<nav class="menu">
+				    <!-- Menu Links -->
+					<div class="icon-list">
+						<a href="index.html#home"><i class="fa fa-fw fa-home"></i><span>Home</span></a>
+						<a href="admin.html"><i class="fa fa-fw fa-quote-left"></i><span>Admin</span></a>
+						<a href="index.html#service"><i class="fa fa-fw fa-globe"></i><span>Drop-off</span></a>
+						<a href="index.html#points"><i class="fa fa-fw fa-picture-o"></i><span>Check Points</span></a>
+						
+						<a href="index.html#contact"><i class="fa fa-fw fa-envelope-o"></i><span>Contact</span></a>
+					</div>
+				</nav>
+			    </div>
+			    <button class="menu-button" id="open-button"></button><!-- menu button -->
+              </div><!--/row-->
+            </div><!--/container-->
+		  <!-- Header Image -->
+          <section class="hero" id="hero">
+            <div class="container">
+			  <!-- Slider Button (don't edit!)-->
+              <div class="row">
+                <div class="col-md-12 text-right navicon">
+                  <a id="nav-toggle" class="nav_slide_button" href="index.html#"><span></span></a>
+                </div>
+                  <img src="{% static 'img/plastic_fish.png' %}" height="80" width="" alt="" style="position: fixed; right: 20px; top: 6px;">
+              </div>
+			  <!-- HEADER HEADLINE -->
+              <div class="row"> 
+                <div class="col-md-8 col-md-offset-1 inner">
+                  <h1 class="animated  fadeInDown">
+                    <span style="color:#1b5baa;">Plas</span>tic<br/>
+                    <span><span style="color:#FFE800">Fi</span>sh</span>
+                  </h1><!-- Title -->
+                  <h3 class="animated fadeInUp delay-05s"><span class="rotate">Zero Hazards,Waste Optimization,Recycle Plastics</span></h3><!-- Text Rotator -->
+                </div>
+              </div>
+			  <!-- Learn More Button -->
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center">
+                  <a href="index.html#about" class="scrollto wow fadeInUp delay-5s ">
+			            <p>SEE MORE</p>
+			            <p class="scrollto--arrow"><img src="{% static 'img/scroll-down.png' %}" alt="scroll down arrow"></p>
+			        </a>
+                </div>
+              </div>
+            </div>
+          </section>
+		  <!-- Header Image End -->
+        </header>
+		<!-- ==========================
+        HEADER SECTION END  
+        =========================== -->
+		
+		
+		
+		
+		<!-- ==========================
+        ABOUT SECTION  
+        =========================== -->
+        <section class="intro text-center section-padding color-bg" id="about">
+          <div class="container">
+		    <!-- WELCOME TEXT -->
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2 wp1">
+                <h1 class="arrow">A little <span>about</span> us</h1><!-- Headline -->
+				<!-- about / welcome text -->
+                <p>Our aim is to keep fishes alive. Plain and simple! We are generating interactions between heroes who have plastic wastes and recyclers in distress. All with the purpose of saving a fishe's life...</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+
+
+<!-- ==========================
+        SERVICE SECTION 
+        =========================== -->
+        <section class="features text-center section-padding" id="service">
+          <div class="container">
+        <!-- Headline -->
+              <div class="row">
+              <div class="col-md-12">
+                <h1 class="arrow">Search for <span>drop-off</span> locations near you.</h1>
+              </div>
+            </div><br>
+              <!-- Name -->
+              <div class="row">
+                  <div class="col-md-3">
+                  </div>
+                  <div class="col-md-6">
+                      <form>
+                            <div class="row">
+                                <div class="col-md-6">
+								    <!-- E-Mail -->
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Your address">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+								    <!-- Phone Number -->
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="City">
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-send">
+                                Search
+                            </button>
+                          </form>
+                  </div>
+              <div class="col-md-3"></div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ==========================
+        NEWSLETTER SECTION 
+        =========================== -->
+        <section id="points">
+		<div class="container-fluid" >
+				<div class="row color-bg">
+				    <div class="col-md-6 nopadding subscribe text-center">
+					 <h1><i class="fa fa-paper-plane"></i><span>Check you credit points</span></h1><!-- Heading -->
+                     <form action="index.html#">
+                       <input type="text" name="" value="" placeholder="" required><!-- E-Mail -->
+                       <input type="submit" name="" value="Check"><!-- Submit Button -->
+                    </form>   
+					</div>
+					<div class="col-md-6 nopadding features-intro-img">
+						 <div class="about-image" style="background-image:url(img/newsletter.png)"></div><!-- Right Image -->
+					</div>
+				</div>
+			</div>
+        </section>
+		<!-- ==========================
+        NEWSLETTER SECTION END
+        =========================== -->
+
+<!-- ==========================
+        CONTACT SECTION
+        =========================== -->
+        <section class="text-center section-padding contact-wrap" id="contact">
+		  <!-- To Top Button -->
+          <a href="index.html#top" class="up-btn"><i class="fa fa-chevron-up"></i></a>
+          <div class="container">
+		    <!-- Headline -->
+            <div class="row">
+              <div class="col-md-12">
+                <h1 class="arrow">A few <span>endangered/extinct</span> fish species</h1>
+              </div>
+            </div>
+              <div class="row">
+              <div class="col-md-12">
+                <img src="{% static 'img/endangered_fish.png' %}" height="200px"/>
+              </div>
+            </div>
+            
+			
+          </div>
+        </section>
+		<!-- ==========================
+        Species Intro SECTION END
+        =========================== -->
+
+
+		<div class="container-fluid">
+		    <!-- About 1 -->
+			<div class="row color-bg">
+				<div class="col-md-6 nopadding features-intro-img">
+					<div class="about-image" style="background-image:url(img/about1.png)"></div><!-- about image 1 -->
+				</div>
+				<div class="col-md-6 about-text">
+					<h6>Shoshone Pupfish (Endangered)</h6><!-- headline-->
+					<p>The Shoshone pupfish, Cyprinodon nevadensis shoshone, is characterized by large scales and a "slab-sided," narrow, slender body, with the arch of the ventral contour much less pronounced than the dorsal. It also has fewer pelvic fin rays and scales than the other pupfish subspecies. </p><br><!-- About Text 1 -->
+					<a href="index.html#team" class="weight-outline-btn">Read more</a><!-- read more button  -->			
+				</div>
+			</div>
+			<!-- About 2 -->
+			<div class="row">
+				<div class="col-md-6 about-text">
+					<h6>Potosi pupfish (Extinct: 1976AD)</h6><!-- Headline -->
+					<p>Potosi pupfish (Cyprinodon alvarezi) is a species of fish in the Cyprinodontidae family. It was endemic to Mexico, but is now extinct in the wild.</p><br><!-- About Text 2 -->
+					<a href="index.html#team" class="weight-outline-btn">Read more</a>	<!-- read more button  -->				
+				</div>
+				<div class="col-md-6 nopadding features-intro-img">
+					<div class="about-image" style="background-image:url(img/about2.png)"></div><!-- about image 2 -->
+				</div>
+			</div>
+			<!-- About 3 -->
+			<div class="row color-bg">
+				<div class="col-md-6 nopadding features-intro-img">
+					<div class="about-image" style="background-image:url(img/about3.png)"></div><!-- about image 3 -->
+				</div>
+				<div class="col-md-6 about-text">
+					<h6>Scioto madtom (Extinct: 1957)</h6><!-- Headline-->
+					<p>The Scioto madtom (Noturus trautmani) was a species of fish in the family Ictaluridae. It is listed as extinct by the International Union for Conservation of Nature, which notes that it has likely been entirely or functionally extinct since 1957 given the lack of records since that year.</p><br><!-- About Text 3 -->
+					<a href="index.html#team" class="weight-outline-btn">Read more</a><!-- read more button  -->					
+				</div>
+			</div>
+		</div>
+		<!-- ==========================
+        ABOUT SECTION END
+        =========================== -->	
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+		
+		
+		<!-- ==========================
+        CONTACT SECTION
+        =========================== -->
+        <section class="text-center section-padding contact-wrap" id="contact">
+		  <!-- To Top Button -->
+          <a href="index.html#top" class="up-btn"><i class="fa fa-chevron-up"></i></a>
+          <div class="container">
+		    <!-- Headline -->
+            <div class="row">
+              <div class="col-md-12">
+                <h1 class="arrow">Drop <span>us</span> a line</h1>
+              </div>
+            </div>
+            <div class="row contact-details">
+			  <!-- Adress Box -->
+              <div class="col-md-4">
+                <div class="dark-box box-hover">
+                  <h2><i class="fa fa-map-marker"></i><span>Address</span></h2>
+                  <p>Angel Hack, Lagos, Nigeria</p>
+                </div>
+              </div>
+			  <!-- Phone Number Box -->
+              <div class="col-md-4">
+                <div class="dark-box box-hover">
+                  <h2><i class="fa fa-mobile"></i><span>Phone</span></h2>
+                  <p>+234 (8ANGEL)-(HACK)</p>
+                </div>
+              </div>
+			  <!-- E-Mail Box -->
+              <div class="col-md-4">
+                <div class="dark-box box-hover">
+                  <h2><i class="fa fa-paper-plane"></i><span>Email</span></h2>
+                  <p><a href="index.html#">plasticfish@angelhack.com</a></p>
+                </div>
+              </div>
+            </div>
+			<div class="row">
+			  <!-- Google Maps (Change your Settings below) -->
+			  <div class="col-md-6">
+			    <div id="googlemaps"></div>
+			  </div>
+			  <!-- Contact Form -->
+			  <div class="col-md-6 contact">
+			     <form role="form">
+				            <!-- Name -->
+                            <div class="row">
+                                <div class="col-md-6">
+								    <!-- E-Mail -->
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Your name">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+								    <!-- Phone Number -->
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" placeholder="Email address">
+                                    </div>
+                                </div>
+                            </div>
+							<!-- Message Area -->
+                            <div class="form-group">
+                                <textarea class="form-control" placeholder="Write you message here..." style="height:232px;"></textarea>
+                            </div>
+							<!-- Subtmit Button -->
+                            <button type="submit" class="btn btn-send">
+                                Send message
+                            </button>
+                        </form>
+			  </div>
+			</div>
+			<br>
+			<!-- Social Buttons - use font-awesome, past in what you want -->
+            <div class="row">
+              <div class="col-md-12">
+                <ul class="social-buttons">
+                  <li><a href="index.html#" class="social-btn"><i class="fa fa-dribbble"></i></a></li><!-- dribble -->
+                  <li><a href="index.html#" class="social-btn"><i class="fa fa-twitter"></i></a></li><!-- twitter -->
+                  <li><a href="index.html#" class="social-btn"><i class="fa fa-facebook"></i></a></li><!-- facebook -->
+				  <li><a href="index.html#" class="social-btn"><i class="fa fa-deviantart"></i></a></li><!-- deviantart -->
+				  <li><a href="index.html#" class="social-btn"><i class="fa fa-youtube"></i></a></li><!-- youtube -->
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+		<!-- ==========================
+        CONTACT SECTION END
+        =========================== -->
+		
+		
+		
+		<!-- ==========================
+        FOOTER SECTION
+        =========================== -->
+        <footer>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 text-center">
+                <p>All Rights Reserved. &copy; 2015 <a href="http://www.themewagon.com">ThemeWagon</a>
+              </div>
+            </div>
+          </div>
+        </footer>
+		<!-- ==========================
+        FOOTER SECTION END
+        =========================== -->		
+		
+		
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- SmoothScroll -->           
+    <script type="text/javascript" src="{% static 'assets/smoothscroll/smoothscroll.js' %}"></script>
+    <!-- Bootstrap -->
+    <script src="{% static 'assets/bootstrap/js/bootstrap.min.js' %}"></script>
+	<!-- Waypoints -->
+	<script src="{% static 'js/waypoints.min.js' %}"></script>
+    <!-- classie.js -->
+	<script src="{% static 'js/classie.js' %}"></script>
+    <!-- FlexSlider -->
+    <script src="{% static 'assets/flexslider/jquery.flexslider.js' %}"></script>
+	<!-- Modernizr -->
+    <script src="{% static 'js/modernizr.js' %}"></script>
+	<!-- Text Rotator -->
+	<script src="{% static 'assets/textrotator/jquery.simple-text-rotator.js' %}"></script>
+	<!-- Lightbox.js -->
+    <script src="{% static 'assets/lightbox/js/lightbox.min.js' %}"></script>
+    <!-- Google Maps --> 
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDeKBBPJTG3v5w3cNPAgM6ZsJiPyL1mP_o&amp;sensor=false"></script>
+	<!-- Theme JavaScript Core -->
+	<script src="{% static 'js/main.js' %}"></script>
+	<script src="{% static 'js/script.js' %}"></script>
+
+	<!-- GOOGLE MAPS DATA -->
+    <script type="text/javascript">
+    // When the window has finished loading create our google map below
+        google.maps.event.addDomListener(window, 'load', init);
+    
+        function init() {
+            // Basic options for a simple Google Map
+            // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+            var mapOptions = {
+                // How zoomed in you want the map to start at (always required)
+                zoom: 15,
+                
+                scrollwheel: false,
+
+                // The latitude and longitude to center the map (always required)
+                center: new google.maps.LatLng(40.68961985411178, -74.01618003845215), // New York 
+
+                // How you would like to style the map. 
+                // This is where you would paste any style found on Snazzy Maps.
+                styles: [	{		featureType:'water',		stylers:[{color:'#F2F2F2'},{visibility:'on'}]	},{		featureType:'landscape',		stylers:[{color:'#FFFFFF'}]	},{		featureType:'road',		stylers:[{saturation:-100},{lightness:45}]	},{		featureType:'road.highway',		stylers:[{visibility:'simplified'}]	},{		featureType:'road.arterial',		elementType:'labels.icon',		stylers:[{visibility:'off'}]	},{		featureType:'administrative',		elementType:'labels.text.fill',		stylers:[{color:'#ADADAD'}]	},{		featureType:'transit',		stylers:[{visibility:'off'}]	},{		featureType:'poi',		stylers:[{visibility:'off'}]	}]
+            };
+
+            // Get the HTML DOM element that will contain your map 
+            // We are using a div with id="map" seen below in the <body>
+            var mapElement = document.getElementById('googlemaps');
+
+            // Create the Google Map using out element and options defined above
+            var map = new google.maps.Map(mapElement, mapOptions);
+        }
+	
+    </script>
+	
+	<!-- TEXT ROTATOR SETTINGS -->
+    <script type="text/javascript">
+    $(".rotate").textrotator({
+      animation: "fade", // You can pick the way it animates when rotating through words. Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
+      separator: ",", // If you don't want commas to be the separator, you can define a new separator (|, &, * etc.) by yourself using this field.
+      speed: 2000 // How many milliseconds until the next word show.
+    });
+    </script>
+	
+    </body>
+</html>
