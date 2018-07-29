@@ -1,4 +1,4 @@
-# AH_Recycler
+# Plasticfish
 
 Non bio-degradable waste forms a major part of the waste generated in Lagos state (case study). Some of the problems with plastic bags, according to [a study][1], include:
 

@@ -18,7 +18,6 @@ The application will consist of:
    
    b. Respond to the user's query with a list of centres from the backend
    
-3. A Progressive Web App (PWA) to encourage users to become environmental advocates, 
-   by having them adopt a cute mascot, and perform environment-friendly tasks, to care
-   for the mascot. Periodically, we'll send out Push notifications to keep them engaged,
-   and share information and tips for improving their environment.
+   c. Register the number of bottles and bags collected by a user, at a drop-off point
+   
+3. A Progressive Web App (PWA) to be used by collectors, as well as users
